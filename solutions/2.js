@@ -1,3 +1,5 @@
+/* Even fibonacci  numbers */
+
 function generateFiboSeries(number) {
   let arr = [1, 2];
   for (let i = 0; i < number - 2; i++) {

@@ -1,3 +1,5 @@
+/* Largest Palindrome Product */
+
 function largestPalindromeProduct(number) {
   let largest,
     lowest = "1",

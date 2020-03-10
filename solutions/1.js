@@ -1,3 +1,5 @@
+/* Multiples of 3 and 5 */
+
 function multiplesOf3and5(number) {
   let sum = 0;
   for (let i = 1; i < number; i++) {
