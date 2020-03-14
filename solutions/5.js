@@ -6,4 +6,18 @@ function gcd(a, b) {
   }
   return gcd(b, a % b);
 }
-console.log(gcd(72, 60));
+
+function lcm(a, b) {
+  return (a * b) / gcd(a, b);
+}
+
+function smallestMultiple(n) {
+  let maxLCM = 1;
+
+  for (let i = 2; i <= n; i++) {
+    maxLCM = lcm(maxLCM, i);
+  }
+  return maxLCM;
+}
+
+console.log(smallestMultiple(20));
