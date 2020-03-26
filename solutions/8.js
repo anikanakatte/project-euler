@@ -1,4 +1,4 @@
-/* Slidig window algorithm */
+/* Largest Product in a series */
 
 function largestSumInSeries(n) {
   let thousandDigits = [
